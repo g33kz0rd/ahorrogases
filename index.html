@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" name="text/css" href="calculadora.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="calConsumo">
+            <p>¿Cuál es tu consumo mensual de gasoil en lts?</p>
+            <div class="calCalculoChico">
+                <p>
+                    <input type="number" id="calculoInput" required>
+                </p>
+            </div>
+            <div class="calLogo">
+                <img src="./imagenes/gasoil.png" alt="gasoil" />
+            </div>  
+        </div>
+        <div class="calBiodisel">
+            <div class="encabezado">
+                <p>Al reemplazar gasoil por biodisel, tu aporte al medioambiente será:</p>
+                    <div class="calLogo">
+                        <img src="./imagenes/co2.png" alt="emisión de CO2" /> 
+                    </div>
+            </div>
+            <div class="calContenedor">
+                <div class="calSubContenedor">
+                    <div class="encabezado">
+                        <p>Emitirás:</p>
+                        <div class="calLogoGrande">
+                            <img src="./imagenes/co2.png" alt='Emisión de CO2'/>
+                        </div>
+                    </div>
+                    <div class="calContenido">
+                        <div class="calCalculoGrande">
+                            <p id="co2Text">xxx.xx</p>
+                        </div>
+                        <p>de tons de CO2 menos a la atmósfera en un año.</p>
+                    </div>
+                    <div class="calLinea"></div>
+                </div>
+                <div class="calSubContenedor">
+                    <div class="encabezado">
+                        <p>Lo cuál es equivalente al CO2 que secuestrarían:</p>
+                        <div class="calLogoGrande">
+                            <img src="./imagenes/arboles.png" alt='Árboles'/>
+                        </div>
+                    </div>
+                    <div class="calContenido">
+                        <div class="calCalculoGrande">
+                            <p id="arbolesText">xxx.xx</p>
+                        </div>
+                        <p>árboles en un año.</p>
+                    </div>
+                    <div class="calLinea"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./calculadora.js"></script>
+</body>
+
+</html>

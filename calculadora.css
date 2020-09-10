@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Panton Light Caps';
+  src: url("./fonts/Panton-LightCaps.otf") format("opentype"); }
+@font-face {
+  font-family: 'Panton Black Caps';
+  src: url("./fonts/Panton-BlackCaps.otf") format("opentype"); }
+* {
+  box-sizing: border-box; }
+
+.calculadora {
+  width: 60%; }
+
+img {
+  width: 100%; }
+
+.calConsumo {
+  width: 100%;
+  background-color: #374049;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px; }
+
+.calConsumo > p {
+  font-family: 'Panton Black Caps';
+  text-transform: uppercase;
+  color: white;
+  font-size: 23px; }
+
+.calConsumo > .calLogo {
+  width: 6%; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none; }
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-family: 'Panton Light Caps';
+  font-size: 25px;
+  text-align: center;
+  color: #374049; }
+  input[type="number"]:focus {
+    outline: none; }
+
+.calCalculoChico {
+  width: 15%;
+  height: min-content; }
+
+.calCalculoChico > p {
+  font-family: 'Panton Light Caps';
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.calBiodisel {
+  margin-top: 20px; }
+
+.encabezado {
+  position: relative;
+  width: 100%;
+  background-color: #374049;
+  padding: 10px;
+  padding-top: 20px; }
+
+.encabezado > p {
+  font-family: 'Panton Black Caps';
+  text-transform: uppercase;
+  color: white;
+  font-size: 19px;
+  display: block;
+  text-align: center; }
+
+.encabezado > .calLogo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background-color: #93bd5b;
+  border-radius: 50%;
+  position: absolute;
+  right: 5%;
+  top: 0%;
+  transform: translateY(-50%); }
+
+.calContenedor {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  height: fit-content; }
+
+.calSubContenedor {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  background-color: #ebf0e9; }
+  .calSubContenedor:last-child {
+    width: 48%; }
+  .calSubContenedor:first-child {
+    width: 35%; }
+
+.calSubContenedor > .encabezado {
+  height: 43%; }
+
+.calSubContenedor > .encabezado > p {
+  font-size: 25px; }
+
+.calLogoGrande {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  background-color: #93bd5b;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%); }
+
+.calContenido {
+  background-color: #ebf0e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-top: 30px; }
+
+.calCalculoGrande {
+  background-color: #93bd5b;
+  width: 80%;
+  margin: auto;
+  padding: 5px; }
+
+.calCalculoGrande > p {
+  text-align: center;
+  font-family: 'Panton Light Caps';
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  margin: 5px; }
+
+.calContenido > p {
+  font-family: 'Panton Light Caps';
+  text-transform: uppercase;
+  color: #374049;
+  text-align: center; }
+
+.calLinea {
+  position: absolute;
+  background-color: #93bd5b;
+  width: 50%;
+  height: 8px;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%); }
+
+/*# sourceMappingURL=calculadora.css.map */
