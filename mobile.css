@@ -1,0 +1,203 @@
+@media screen and (max-width: 1330px) {
+  .encabezado > p {
+    font-size: 30px; }
+
+  .calConsumo > p {
+    font-size: 30px; } }
+@media screen and (max-width: 1146px) {
+  .encabezado > p {
+    font-size: 25px; }
+
+  .calConsumo > p {
+    font-size: 25px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 40px; }
+
+  .encabezadoChico > p {
+    font-size: 25px; }
+
+  .calCalculoGrande > p {
+    font-size: 60px;
+    line-height: 60px; }
+
+  .calContenido > p {
+    font-size: 18px; } }
+@media screen and (max-width: 965px) {
+  .encabezado > p {
+    font-size: 20px; }
+
+  .calConsumo > p {
+    font-size: 20px; }
+
+  .calLinea {
+    min-height: 10em; }
+
+  input[type="number"] {
+    font-size: 25px;
+    padding: 12px; }
+
+  .calContenedor {
+    margin-top: 20px; }
+
+  .calConsumo {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 900px) {
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 30px; }
+
+  .encabezadoChico > p {
+    font-size: 20px; }
+
+  .calCalculoGrande > p {
+    font-size: 40px;
+    line-height: 35px; }
+
+  .calContenido > p {
+    font-size: 15px; } }
+@media screen and (max-width: 812px) {
+  .encabezado > p {
+    font-size: 18px; }
+
+  .calConsumo > p {
+    font-size: 18px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 25px; }
+
+  .encabezadoChico > p {
+    font-size: 12px; }
+
+  .calContenido > p {
+    font-size: 10px; }
+
+  .calLinea {
+    min-height: 8em; } }
+@media screen and (max-width: 710px) {
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 23px; }
+
+  .encabezado > p {
+    font-size: 15px; }
+
+  .calConsumo > p {
+    font-size: 15px; } }
+@media screen and (max-width: 612px) {
+  .encabezadoChico > p {
+    font-size: 12px; } }
+@media screen and (max-width: 600px) {
+  .encabezado > p {
+    font-size: 12px; }
+
+  .calConsumo > p {
+    font-size: 12px; }
+
+  input[type="number"] {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px; }
+
+  .calLogoGrande {
+    padding: 10px; } }
+@media screen and (max-width: 490px) {
+  .encabezado > p {
+    font-size: 10px; }
+
+  .calConsumo > p {
+    font-size: 10px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 15px; }
+
+  .encabezadoChico > p {
+    font-size: 10px; }
+
+  .calContenido > p {
+    font-size: 8px; }
+
+  .calLinea {
+    min-height: 6em; } }
+@media screen and (max-width: 425px) {
+  .encabezado > p {
+    font-size: 8px; }
+
+  .calConsumo > p {
+    font-size: 8px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 10px; }
+
+  .encabezadoChico > p {
+    font-size: 8px; }
+
+  .calCalculoGrande > p {
+    font-size: 30px;
+    line-height: 30px; }
+
+  input[type="number"] {
+    font-size: 10px;
+    padding: 12px; }
+
+  .calCalculoInput {
+    width: 40%; }
+
+  .calConsumo {
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+
+  .calContenedor {
+    margin-top: 0px; }
+
+  .calLinea {
+    width: 2px; }
+
+  .encabezado {
+    padding-top: 5px;
+    padding-bottom: 5px; } }
+@media screen and (max-width: 355px) {
+  .encabezado > p {
+    font-size: 6px; }
+
+  .calConsumo > p {
+    font-size: 6px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 10px; }
+
+  .encabezadoChico > p {
+    font-size: 8px; }
+
+  .calContenido > p {
+    font-size: 5px; }
+
+  .calCalculoGrande > p {
+    font-size: 25px;
+    line-height: 25px; }
+
+  .calLinea {
+    min-height: 5em; }
+
+  input[type="number"] {
+    font-size: 6px;
+    padding: 6px; } }
+@media screen and (max-width: 335px) {
+  .calConsumo {
+    margin-bottom: 0px; }
+
+  .calCalculoGrande > p {
+    font-size: 20px;
+    line-height: 20px; }
+
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 8px; }
+
+  .encabezadoChico > p {
+    font-size: 6px; }
+
+  .calLinea {
+    min-height: 4em; }
+
+  .calLogoGrande {
+    padding: 3px; } }
+
+/*# sourceMappingURL=mobile.css.map */

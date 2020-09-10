@@ -7,18 +7,15 @@
 * {
   box-sizing: border-box; }
 
-.calculadora {
-  width: 60%; }
-
 img {
   width: 100%; }
 
 .calConsumo {
-  width: 100%;
-  background-color: #374049;
+  width: 68%;
+  margin: auto;
   padding: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 40px; }
@@ -26,11 +23,9 @@ img {
 .calConsumo > p {
   font-family: 'Panton Black Caps';
   text-transform: uppercase;
-  color: white;
-  font-size: 23px; }
-
-.calConsumo > .calLogo {
-  width: 6%; }
+  color: #374049;
+  font-size: 35px;
+  margin: 5px 0px 5px 0px; }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -38,26 +33,29 @@ input::-webkit-inner-spin-button {
 
 input[type="number"] {
   -moz-appearance: textfield;
+  background-color: #93bd5b;
+  border-radius: 10px;
   border: none;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   font-family: 'Panton Light Caps';
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   color: #374049; }
   input[type="number"]:focus {
     outline: none; }
 
-.calCalculoChico {
-  width: 15%;
+.calCalculoInput {
+  width: 30%;
   height: min-content; }
 
-.calCalculoChico > p {
+.calCalculoInput > p {
   font-family: 'Panton Light Caps';
   font-size: 25px;
   text-transform: uppercase;
   margin-top: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  width: 50%; }
 
 .calBiodisel {
   margin-top: 20px; }
@@ -65,101 +63,77 @@ input[type="number"] {
 .encabezado {
   position: relative;
   width: 100%;
-  background-color: #374049;
   padding: 10px;
   padding-top: 20px; }
 
 .encabezado > p {
   font-family: 'Panton Black Caps';
   text-transform: uppercase;
-  color: white;
-  font-size: 19px;
+  color: #374049;
+  font-size: 35px;
   display: block;
-  text-align: center; }
+  text-align: center;
+  display: block;
+  margin: auto; }
 
-.encabezado > .calLogo {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  background-color: #93bd5b;
-  border-radius: 50%;
-  position: absolute;
-  right: 5%;
-  top: 0%;
-  transform: translateY(-50%); }
+.encabezadoChico > p {
+  font-family: 'Panton Black Caps';
+  text-transform: uppercase;
+  color: #374049;
+  font-size: 30px;
+  margin: 0px; }
 
 .calContenedor {
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   height: fit-content; }
 
 .calSubContenedor {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   min-height: 100%;
   position: relative;
-  background-color: #ebf0e9; }
-  .calSubContenedor:last-child {
-    width: 48%; }
-  .calSubContenedor:first-child {
-    width: 35%; }
+  width: 45%;
+  margin-right: 10px; }
 
-.calSubContenedor > .encabezado {
-  height: 43%; }
+.calSubContenedor > div > .encabezado {
+  padding: 0px; }
 
-.calSubContenedor > .encabezado > p {
-  font-size: 25px; }
+.calSubContenedor > div > .encabezado > p {
+  font-size: 50px;
+  text-align: left; }
 
 .calLogoGrande {
-  width: 70px;
-  height: 70px;
-  padding: 10px;
-  background-color: #93bd5b;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 0%;
-  transform: translate(-50%, -50%); }
+  padding: 20px;
+  width: 30%; }
 
 .calContenido {
-  background-color: #ebf0e9;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  padding-top: 30px; }
-
-.calCalculoGrande {
-  background-color: #93bd5b;
-  width: 80%;
-  margin: auto;
-  padding: 5px; }
+  flex-direction: column; }
 
 .calCalculoGrande > p {
-  text-align: center;
-  font-family: 'Panton Light Caps';
-  font-size: 25px;
+  font-family: 'Panton Black Caps';
+  font-size: 100px;
   text-transform: uppercase;
-  color: white;
-  margin: 5px; }
+  color: #345d2d;
+  font-weight: 900;
+  text-align: left;
+  margin: 0px;
+  line-height: 90px; }
 
 .calContenido > p {
   font-family: 'Panton Light Caps';
   text-transform: uppercase;
   color: #374049;
-  text-align: center; }
+  margin-top: 0px;
+  font-size: 23px; }
 
 .calLinea {
-  position: absolute;
-  background-color: #93bd5b;
-  width: 50%;
-  height: 8px;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%); }
+  background-color: #374049;
+  width: 4px;
+  min-height: 20em; }
 
 /*# sourceMappingURL=calculadora.css.map */
