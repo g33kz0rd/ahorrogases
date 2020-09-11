@@ -10,6 +10,11 @@
 img {
   width: 100%; }
 
+.calculadora {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .calConsumo {
   width: 68%;
   margin: auto;
@@ -71,6 +76,7 @@ input[type="number"] {
   text-transform: uppercase;
   color: #374049;
   font-size: 35px;
+  line-height: 35px;
   display: block;
   text-align: center;
   display: block;
@@ -81,6 +87,7 @@ input[type="number"] {
   text-transform: uppercase;
   color: #374049;
   font-size: 30px;
+  line-height: 30px;
   margin: 0px; }
 
 .calContenedor {
@@ -104,6 +111,7 @@ input[type="number"] {
 
 .calSubContenedor > div > .encabezado > p {
   font-size: 50px;
+  line-height: 50px;
   text-align: left; }
 
 .calLogoGrande {
@@ -122,7 +130,7 @@ input[type="number"] {
   font-weight: 900;
   text-align: left;
   margin: 0px;
-  line-height: 90px; }
+  line-height: 100px; }
 
 .calContenido > p {
   font-family: 'Panton Light Caps';

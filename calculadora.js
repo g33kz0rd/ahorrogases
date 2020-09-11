@@ -45,4 +45,31 @@ function calculate(consumoMensual) {
 
     document.getElementById('co2Text').innerHTML = ahorroEmisionesKgCO2.toFixed(0);
     document.getElementById('arbolesText').innerHTML = cO2Secuestrado.toFixed(0);
+
+    resizeText()
 }
+
+
+//ESTILO
+
+function resizeText() {
+    let media = window.matchMedia("(min-width: 1330px)")
+    let resultado = document.getElementsByClassName('calCalculo')
+    if (media.matches) {
+        for (let i = 0; i < resultado.length; i++) {
+            if (resultado[i].innerHTML.length > 7) {
+                for (let i = 0; i < resultado.length; i++)
+                    resultado[i].style.fontSize = '80px'
+                resultado[i].style.lineHeight = '80px'
+            }
+            if (resultado[i].innerHTML.length > 8) {
+                for (let i = 0; i < resultado.length; i++)
+                    resultado[i].style.fontSize = '60px'
+                resultado[i].style.lineHeight = '60px'
+            }
+        }
+    }
+}
+
+
+

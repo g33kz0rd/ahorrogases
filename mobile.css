@@ -1,40 +1,52 @@
 @media screen and (max-width: 1330px) {
   .encabezado > p {
-    font-size: 30px; }
+    font-size: 30px;
+    line-height: 30px; }
 
   .calConsumo > p {
-    font-size: 30px; } }
+    font-size: 30px; 
+    line-height: 30px;} }
+
 @media screen and (max-width: 1146px) {
   .encabezado > p {
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 25px; }
 
   .calConsumo > p {
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 25px; }
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 40px; }
+    font-size: 40px;
+    line-height: 40px; }
 
   .encabezadoChico > p {
-    font-size: 25px; }
+    font-size: 25px; 
+    line-height: 25px;}
 
   .calCalculoGrande > p {
     font-size: 60px;
     line-height: 60px; }
 
   .calContenido > p {
-    font-size: 18px; } }
+    font-size: 18px; 
+    line-height: 18px;} }
 @media screen and (max-width: 965px) {
   .encabezado > p {
-    font-size: 20px; }
+    font-size: 20px; 
+    line-height: 20px;}
 
   .calConsumo > p {
-    font-size: 20px; }
+    font-size: 20px;
+    line-height: 20px;
+   }
 
   .calLinea {
     min-height: 10em; }
 
   input[type="number"] {
     font-size: 25px;
+    line-height: 25px;
     padding: 12px; }
 
   .calContenedor {
@@ -44,98 +56,142 @@
     margin-bottom: 20px; } }
 @media screen and (max-width: 900px) {
   .calSubContenedor > div > .encabezado > p {
-    font-size: 30px; }
+    font-size: 30px;
+    line-height: 30px; }
 
   .encabezadoChico > p {
-    font-size: 20px; }
+    font-size: 20px; 
+    line-height: 20px;}
 
   .calCalculoGrande > p {
     font-size: 40px;
-    line-height: 35px; }
+    line-height: 40px; }
 
   .calContenido > p {
-    font-size: 15px; } }
+    font-size: 15px; 
+    line-height: 15px;} }
 @media screen and (max-width: 812px) {
   .encabezado > p {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 18px; }
 
   .calConsumo > p {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 18px; }
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 25px; }
 
   .encabezadoChico > p {
-    font-size: 12px; }
+    font-size: 12px; 
+    line-height: 12px;}
 
   .calContenido > p {
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 10px; }
 
   .calLinea {
     min-height: 8em; } }
 @media screen and (max-width: 710px) {
   .calSubContenedor > div > .encabezado > p {
-    font-size: 23px; }
+    font-size: 23px;
+    line-height: 23px; }
 
   .encabezado > p {
-    font-size: 15px; }
+    font-size: 15px;
+    line-height: 15px; }
 
   .calConsumo > p {
-    font-size: 15px; } }
+    font-size: 15px;
+    line-height: 15px; } }
 @media screen and (max-width: 612px) {
   .encabezadoChico > p {
-    font-size: 12px; } }
+    font-size: 12px;
+    line-height: 12px; } }
 @media screen and (max-width: 600px) {
   .encabezado > p {
-    font-size: 12px; }
-
+    font-size: 12px;
+    line-height: 12px;
+  }
   .calConsumo > p {
-    font-size: 12px; }
+    font-size: 12px;
+    line-height: 12px; }
 
   input[type="number"] {
     font-size: 15px;
+    line-height: 15px;
     padding: 10px;
     border-radius: 8px; }
 
   .calLogoGrande {
-    padding: 10px; } }
+    padding: 10px; } 
+}
+
+@media screen and (max-width: 550px) {
+  .calSubContenedor > div > .encabezado > p {
+    font-size: 21px;
+    line-height: 21px; }
+
+  .encabezado > p {
+    font-size: 12px;
+    line-height: 12px; }
+    .calCalculoGrande > p {
+      font-size: 35px;
+      line-height: 35px; }
+}
 @media screen and (max-width: 490px) {
   .encabezado > p {
-    font-size: 10px; }
+    font-size: 10px; 
+    line-height: 10px;}
 
   .calConsumo > p {
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 10px;
+   }
+   .calCalculoGrande > p {
+    font-size: 25px;
+    line-height: 25px; }
+
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 15px; }
+    font-size: 15px;
+    line-height: 15px; }
 
   .encabezadoChico > p {
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 10px; }
 
   .calContenido > p {
-    font-size: 8px; }
+    font-size: 8px;
+    line-height: 8px; }
 
   .calLinea {
     min-height: 6em; } }
 @media screen and (max-width: 425px) {
   .encabezado > p {
-    font-size: 8px; }
+    font-size: 8px;
+    line-height: 8px; }
 
   .calConsumo > p {
-    font-size: 8px; }
+    font-size: 8px;
+    line-height: 8px; }
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 10px; }
+    font-size: 10px;
+    line-height: 10px; }
 
   .encabezadoChico > p {
-    font-size: 8px; }
+    font-size: 8px;
+    line-height: 8px; }
 
   .calCalculoGrande > p {
-    font-size: 30px;
-    line-height: 30px; }
+    font-size: 18px;
+    line-height: 18px; }
 
   input[type="number"] {
     font-size: 10px;
+    line-height: 10px;
     padding: 12px; }
 
   .calCalculoInput {
@@ -153,32 +209,46 @@
 
   .encabezado {
     padding-top: 5px;
-    padding-bottom: 5px; } }
+    padding-bottom: 5px; } 
+
+    .calContenido > p {
+      font-size: 6px;
+      line-height: 6px;
+    }
+  }
+  
+    
 @media screen and (max-width: 355px) {
   .encabezado > p {
-    font-size: 6px; }
+    font-size: 6px;
+    line-height: 6px; }
 
   .calConsumo > p {
-    font-size: 6px; }
+    font-size: 6px;
+    line-height: 6px; }
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 10px; }
+    font-size: 9px;
+    line-height: 9px; }
 
   .encabezadoChico > p {
-    font-size: 8px; }
+    font-size: 7px;
+    line-height: 7px; }
 
   .calContenido > p {
-    font-size: 5px; }
+    font-size: 5px;
+    line-height: 5px; }
 
   .calCalculoGrande > p {
-    font-size: 25px;
-    line-height: 25px; }
+    font-size: 20px;
+    line-height: 20px; }
 
   .calLinea {
     min-height: 5em; }
 
   input[type="number"] {
     font-size: 6px;
+    line-height: 6px;
     padding: 6px; } }
 @media screen and (max-width: 335px) {
   .calConsumo {
@@ -189,15 +259,26 @@
     line-height: 20px; }
 
   .calSubContenedor > div > .encabezado > p {
-    font-size: 8px; }
+    font-size: 8px;
+    line-height: 8px; }
 
   .encabezadoChico > p {
-    font-size: 6px; }
+    font-size: 6px;
+    line-height: 6px; }
 
   .calLinea {
     min-height: 4em; }
 
   .calLogoGrande {
     padding: 3px; } }
+
+@media screen and (max-width: 282px) {
+  .encabezado > p {
+    font-size: 5px;
+    line-height: 5px; }
+
+  .calConsumo > p {
+    font-size: 5px; 
+    line-height: 5px;} }
 
 /*# sourceMappingURL=mobile.css.map */
