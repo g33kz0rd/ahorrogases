@@ -43,10 +43,10 @@ function calculate(consumoMensual) {
     let ahorroEmisionesVSGasoil = emisionesGasoil / ahorroEmisionesKgCO2 * 100;
     let cO2Secuestrado = ahorroEmisionesKgCO2 / absorcionPromedioPorArbol;
 
-    document.getElementById('co2Text').innerHTML = ahorroEmisionesKgCO2.toFixed(0);
+    document.getElementById('co2Text').innerHTML = (ahorroEmisionesKgCO2/1000).toFixed(0);
     document.getElementById('arbolesText').innerHTML = cO2Secuestrado.toFixed(0);
 
-    resizeText()
+    resizeText();
 }
 
 
