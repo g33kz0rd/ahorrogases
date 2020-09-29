@@ -12,13 +12,13 @@ function check(e) {
     if (e.target.value === '')
         return;
 
-    let newValue = parseInt(e.target.value);
+    let newValue = parseInt(e.target.value.toString().split('.').join(''));
 
     if (!isNaN(newValue)) {
         currentValue = newValue;
     }
 
-    document.getElementById('calculoInput').value = currentValue;
+    document.getElementById('calculoInput').value = addCommas(currentValue);
 
     calculate(currentValue);
 }
@@ -43,8 +43,8 @@ function calculate(consumoMensual) {
     let ahorroEmisionesVSGasoil = emisionesGasoil / ahorroEmisionesKgCO2 * 100;
     let cO2Secuestrado = ahorroEmisionesKgCO2 / absorcionPromedioPorArbol;
 
-    document.getElementById('co2Text').innerHTML = (ahorroEmisionesKgCO2/1000).toFixed(0);
-    document.getElementById('arbolesText').innerHTML = cO2Secuestrado.toFixed(0);
+    document.getElementById('co2Text').innerHTML = addCommas((ahorroEmisionesKgCO2/1000).toFixed(0));
+    document.getElementById('arbolesText').innerHTML = addCommas(cO2Secuestrado.toFixed(0));
 
     resizeText();
 }
@@ -69,6 +69,16 @@ function resizeText() {
             }
         }
     }
+}
+
+function addCommas(n) {
+     n = n.toString()
+     while (true) {
+       var n2 = n.replace(/(\d)(\d{3})($|,|\.)/g, '$1.$2$3')
+       if (n == n2) break
+       n = n2
+     }
+     return n
 }
 
 

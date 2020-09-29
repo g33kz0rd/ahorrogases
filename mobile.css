@@ -1,20 +1,24 @@
 @media screen and (max-width: 1330px) {
   .encabezado > p {
     font-size: 30px;
-    line-height: 30px; }
+    line-height: 30px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 30px; 
-    line-height: 30px;} }
+    line-height: 30px;
+    text-align: center;} }
 
 @media screen and (max-width: 1146px) {
   .encabezado > p {
     font-size: 25px;
-    line-height: 25px; }
+    line-height: 25px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 25px;
-    line-height: 25px; }
+    line-height: 25px;
+    text-align: center; }
 
   .calSubContenedor > div > .encabezado > p {
     font-size: 40px;
@@ -34,18 +38,20 @@
 @media screen and (max-width: 965px) {
   .encabezado > p {
     font-size: 20px; 
-    line-height: 20px;}
+    line-height: 20px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 20px;
     line-height: 20px;
+    text-align: center;
    }
 
   .calLinea {
     min-height: 10em; }
 
-  input[type="number"] {
-    font-size: 25px;
+  input[type="text"] {
+    font-size: 45px;
     line-height: 25px;
     padding: 12px; }
 
@@ -53,7 +59,8 @@
     margin-top: 20px; }
 
   .calConsumo {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    text-align: center; } }
 @media screen and (max-width: 900px) {
   .calSubContenedor > div > .encabezado > p {
     font-size: 30px;
@@ -73,11 +80,13 @@
 @media screen and (max-width: 812px) {
   .encabezado > p {
     font-size: 18px;
-    line-height: 18px; }
+    line-height: 18px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 18px;
-    line-height: 18px; }
+    line-height: 18px;
+    text-align: center; }
 
   .calSubContenedor > div > .encabezado > p {
     font-size: 25px;
@@ -100,26 +109,30 @@
 
   .encabezado > p {
     font-size: 15px;
-    line-height: 15px; }
+    line-height: 15px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 15px;
-    line-height: 15px; } }
+    line-height: 15px;
+    text-align: center; } }
 @media screen and (max-width: 612px) {
   .encabezadoChico > p {
     font-size: 12px;
-    line-height: 12px; } }
+    line-height: 12px;
+    text-align: center; } }
 @media screen and (max-width: 600px) {
   .encabezado > p {
     font-size: 12px;
     line-height: 12px;
-  }
+    text-align: center; }
   .calConsumo > p {
     font-size: 12px;
-    line-height: 12px; }
+    line-height: 12px;
+    text-align: center; }
 
-  input[type="number"] {
-    font-size: 15px;
+  input[type="text"] {
+    font-size: 30px;
     line-height: 15px;
     padding: 10px;
     border-radius: 8px; }
@@ -135,14 +148,17 @@
 
   .encabezado > p {
     font-size: 12px;
-    line-height: 12px; }
-    .calCalculoGrande > p {
+    line-height: 12px;
+    text-align: center; }
+
+   .calCalculoGrande > p {
       font-size: 35px;
       line-height: 35px; }
 }
 @media screen and (max-width: 490px) {
   .calConsumo {
     width: 85%;
+    text-align: center;
   }
    .calCalculoGrande > p {
     font-size: 25px;
@@ -164,11 +180,13 @@
 @media screen and (max-width: 425px) {
   .encabezado > p {
     font-size: 10px;
-    line-height: 10px; }
+    line-height: 10px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 10px;
-    line-height: 10px; }
+    line-height: 10px;
+    text-align: center; }
 
   .calSubContenedor > div > .encabezado > p {
     font-size: 10px;
@@ -182,17 +200,18 @@
     font-size: 18px;
     line-height: 18px; }
 
-  input[type="number"] {
-    font-size: 10px;
+  input[type="text"] {
+    font-size: 15px;
     line-height: 10px;
     padding: 12px; }
 
   .calCalculoInput {
-    width: 40%; }
+    width: 45%; }
 
   .calConsumo {
     margin-bottom: 0px;
-    padding-bottom: 0px; }
+    padding-bottom: 0px;
+    text-align: center; }
 
   .calContenedor {
     margin-top: 0px; }
@@ -202,7 +221,8 @@
 
   .encabezado {
     padding-top: 5px;
-    padding-bottom: 5px; } 
+    padding-bottom: 5px;
+    text-align: center; } 
 
     .calContenido > p {
       font-size: 6px;
@@ -218,7 +238,8 @@
 
   .calConsumo > p {
     font-size: 9px;
-    line-height: 9px; }
+    line-height: 9px;
+    text-align: center; }
 
   .calSubContenedor > div > .encabezado > p {
     font-size: 9px;
@@ -239,8 +260,8 @@
   .calLinea {
     min-height: 5em; }
 
-  input[type="number"] {
-    font-size: 6px;
+  input[type="text"] {
+    font-size: 10px;
     line-height: 6px;
     padding: 6px; } }
 @media screen and (max-width: 335px) {
@@ -268,10 +289,12 @@
 @media screen and (max-width: 282px) {
   .encabezado > p {
     font-size: 5px;
-    line-height: 5px; }
+    line-height: 5px;
+    text-align: center; }
 
   .calConsumo > p {
     font-size: 5px; 
-    line-height: 5px;} }
+    line-height: 5px;
+    text-align: center;} }
 
 /*# sourceMappingURL=mobile.css.map */
