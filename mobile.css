@@ -50,7 +50,7 @@
   .calLinea {
     min-height: 10em; }
 
-  input[type="text"] {
+  #calculoInput {
     font-size: 45px;
     line-height: 25px;
     padding: 12px; }
@@ -131,7 +131,7 @@
     line-height: 12px;
     text-align: center; }
 
-  input[type="text"] {
+  #calculoInput {
     font-size: 30px;
     line-height: 15px;
     padding: 10px;
@@ -200,7 +200,7 @@
     font-size: 18px;
     line-height: 18px; }
 
-  input[type="text"] {
+  #calculoInput {
     font-size: 15px;
     line-height: 10px;
     padding: 12px; }
@@ -260,7 +260,7 @@
   .calLinea {
     min-height: 5em; }
 
-  input[type="text"] {
+  #calculoInput {
     font-size: 10px;
     line-height: 6px;
     padding: 6px; } }

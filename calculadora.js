@@ -1,4 +1,4 @@
-let currentValue = 30000;
+let currentValue = 300;
 
 document.getElementById('calculoInput').onkeyup = check;
 document.getElementById('calculoInput').onkeydown = check;
